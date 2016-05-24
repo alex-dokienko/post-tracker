@@ -1,0 +1,11 @@
+{
+	"notifications": [{
+		"id": 1,
+		"title": "Новая версия 1.8.5",
+		"text": "",
+		"version": -1,
+		"date":"",
+		"action": "market://details?id=com.tvserials.notification",
+		"locale": "all"
+	]
+} 
