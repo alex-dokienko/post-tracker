@@ -9,8 +9,8 @@
 		"locale": "all"
 	},{
 		"id": 3,
-		"title": "Ошибка доступа к серверу Новой Почты",
-		"text": "Проблема исправлена, ожидайте обновление на Play Market. Извините за неудобства",
+		"title": "Ошибка исправлена",
+		"text": "Ожидайте обновление до 2.0.1 на Play Market. Извините за неудобства",
 		"version": -1,
 		"date":"",
 		"action": "market://details?id=com.tvserials.notification",
