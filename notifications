@@ -8,9 +8,9 @@
 		"action": "market://details?id=com.tvserials.notification",
 		"locale": "all"
 	},{
-		"id": 2,
+		"id": 3,
 		"title": "Ошибка доступа к серверу Новой Почты",
-		"text": "К сожалению на данный момент не работает загрузка деклараций по причине ошибки доступа к серверу Новой Почты. Занимаемся исправлением",
+		"text": "Проблема исправлена, ожидайте обновление на Play Market. Извините за неудобства",
 		"version": -1,
 		"date":"",
 		"action": "market://details?id=com.tvserials.notification",
