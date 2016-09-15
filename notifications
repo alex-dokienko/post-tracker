@@ -8,7 +8,7 @@
 		"action": "market://details?id=com.tvserials.notification",
 		"locale": "all"
 	},{
-		"id": 3,
+		"id": 4,
 		"title": "Ошибка исправлена",
 		"text": "Ожидайте обновление до 2.0.1 на Play Market. Извините за неудобства",
 		"version": -1,
