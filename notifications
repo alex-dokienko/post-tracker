@@ -3,7 +3,7 @@
 		"id": 1,
 		"title": "Новая версия 1.8.5",
 		"text": "",
-		"version": 1000,
+		"version": 20000000,
 		"date":"",
 		"action": "market://details?id=com.tvserials.notification",
 		"locale": "all"
@@ -11,7 +11,7 @@
 		"id": 4,
 		"title": "Ошибка исправлена",
 		"text": "Ожидайте обновление до 2.0.1 на Play Market. Извините за неудобства",
-		"version": -1,
+		"version": 20000000,
 		"date":"",
 		"action": "market://details?id=com.tvserials.notification",
 		"locale": "all"
