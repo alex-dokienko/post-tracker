@@ -1,0 +1,37 @@
+<html><body>
+<script>
+function toggleElement(id)
+{
+    if(document.getElementById(id).style.display == 'none')
+    {
+        document.getElementById(id).style.display = '';
+    }
+    else
+    {
+        document.getElementById(id).style.display = 'none';
+    }
+}
+</script>
+<style>
+a {
+	color:green;	
+	text-decoration: none;
+}
+</style>
+<p>
+<a href="javascript:toggleElement('a1')">Проблеми оновлення статусів</a>
+</p>
+<div id="a1" style="display:none">
+	<span>1sss</span>
+	<span>2sss</span>	
+</div>
+<p>
+<a href="javascript:toggleElement('a2')">Проблеми оновлення статусів 2</a>
+</p>
+<div id="a2" style="display:none">
+	<span>1sss</span>
+	<span>2sss</span>	
+</div>
+
+</body>
+</html>
