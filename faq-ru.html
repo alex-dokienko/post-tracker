@@ -1,4 +1,5 @@
-<html><body>
+<html>
+<body>
 <script>
 function toggleElement(id)
 {
@@ -11,28 +12,40 @@ function toggleElement(id)
         document.getElementById(id).style.display = 'none';
     }
 }
+
 </script>
 <style>
 a {
 	color:green;	
 	text-decoration: none;
 }
+
+body {
+	padding:10dp;
+}
+
+
 </style>
-<p>
-<a href="javascript:toggleElement('a1')">Статусы не обновляются автоматически</a>
-</p>
-<div id="a1" style="display:none">
-	<p>Часто эта проблема связана с тем что приложению запрещена работа в фоне. Необходимо проверить что в настройках телефона выданы разрешение на работу в фоне.</p>
-	<p>Еще одной причиной при обновлении может быть отключенная глобальная синхронизация, более детально по <a href="https://support.google.com/pixelphone/answer/2840875">ссылке</a></p>
+<div>
+    <p>
+        <a href="javascript:toggleElement('a1')">Статусы не обновляются автоматически</a>
+    </p>
+    <div id="a1" style="display:none">
+        <p>Часто эта проблема связана с тем что приложению запрещена работа в фоне. Необходимо
+            проверить что в настройках телефона выданы разрешение на работу в фоне.</p>
+        <p>Еще одной причиной при обновлении может быть отключенная глобальная синхронизация, более
+            детально по <a href="https://support.google.com/pixelphone/answer/2840875">ссылке</a>
+        </p>
 
+    </div>
+    <p>
+        <a href="javascript:toggleElement('a2')">Проблемы обновления статусов в фоне 2</a>
+    </p>
+    <div id="a2" style="display:none">
+        <span>1sss</span>
+        <span>2sss</span>
+    </div>
 </div>
-<p>
-<a href="javascript:toggleElement('a2')">Проблемы обновления статусов в фоне 2</a>
-</p>
-<div id="a2" style="display:none">
-	<span>1sss</span>
-	<span>2sss</span>	
-</div>
-
 </body>
 </html>
+		
