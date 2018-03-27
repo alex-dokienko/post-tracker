@@ -1,10 +1,75 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">	
-    <head>
-       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>	
+<!DOCTYPE html>
+<html>
+	<head>
+ 	   <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	</head>
 <body>
+<script type="text/javascript">
+function toggleElement(id)
+{
+    if(document.getElementById(id).style.display == 'none')
+    {
+        document.getElementById(id).style.display = '';
+    }
+    else
+    {
+        document.getElementById(id).style.display = 'none';
+    }
+}
+
+</script>
+<style>
+a {
+	color:green;	
+	text-decoration: none;
+	font-size: large;
+}
+
+body {
+	padding:10px;
+	font-size: large;
+}
+
+</style>
+<div>
     <p>
-        Статусы не обновляются автоматически
-    </p>    
+        <a href="javascript:toggleElement('a1')"> > Статусы не обновляются автоматически</a>
+    </p>
+    <div id="a1" style="display:none">
+        <p>Часто эта проблема связана с тем что приложению запрещена работа в фоне. Необходимо
+            проверить что в настройках телефона выданы разрешение на работу в фоне.</p>
+        <p>Еще одной причиной при обновлении может быть отключенная глобальная синхронизация, более детально можно прочитать по <a href="https://support.google.com/pixelphone/answer/2840875">ссылке</a>
+        </p>
+
+    </div>
+    <p>
+        <a href="javascript:toggleElement('a2')"> > Импорт номера декларации с Viber</a>
+    </p>
+    <div id="a2" style="display:none">
+        <p>Технически нет возможности реализовать автоимпорт с Viber</p>
+        <p>Но можно воспользоватся опцией Буфер которая позволит максимально упростить операцию копирования без необходимости выделять и копировать непосредственно сам номер.</p>
+    </div>
+    <p>
+        <a href="javascript:toggleElement('a3')"> > Как переустановить приложение не потеряв данные</a>
+    </p>
+    <div id="a3" style="display:none">
+        <p>1. Перед удалением приложения необходимо воспользоватся опцией меню Настройки=>Архивировать, после чего выбрать место в памяти телефона для сохранения файла</p>
+        <p>2. Удалить приложение и снова установить приложение используя стандартное приложение Play Store</p>
+	<p>3. Зайти снова в меню настроек приложения и выбрать меню Настройки=>Восстановить, выбрать из памяти телефона сохранненый ранее файл (пример названия файла post-tracker-2018-02-18_10-59.db)</p>
+    </div>
+    <p>
+        <a href="javascript:toggleElement('a4')"> > Функция отправки СМС подставляет не правильно номер телефона</a>
+    </p>
+    <div id="a4" style="display:none">
+        <p>Для того что бы правильно работала эта функция необходимо обязательно при добавлении декларации вводить свой номер телефона в качестве номера для отслеживания.</p>        
+	<p>Номер для отслеживания можно изменить даже после того как декларация была добавлена в приложение, для этого в деталях декларации нужно просто нажать на этот номер.</p>
+    </div>
+    <p>
+        <a href="javascript:toggleElement('a5')"> > Как выразить благодарность разработчику</a>
+    </p>
+    <div id="a5" style="display:none">
+        <p>Установите платную версию <a href="https://play.google.com/store/apps/details?id=com.posttracker.app.pro">приложения</a></p>        	
+    </div>
+</div>
 </body>
 </html>
