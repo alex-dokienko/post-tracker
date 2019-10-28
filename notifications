@@ -15,6 +15,14 @@
 		"date":"",
 		"action": "market://details?id=com.tvserials.notification",
 		"locale": "all"
+	},{
+		"id": 4,
+		"title": "Новая версия 3.2.0",
+		"text": "Обновитесь до последней версии приложения.",
+		"version": 3020198,
+		"date":"",
+		"action": "market://details?id=com.posttracker.app",
+		"locale": "all"
 	}
 ]
 } 
