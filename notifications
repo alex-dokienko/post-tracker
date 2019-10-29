@@ -39,6 +39,14 @@
 		"date":"",
 		"action": "market://details?id=com.posttracker.app",
 		"locale": "all"
+	},{
+		"id": 8,
+		"title": "Новая версия 2.4.7",
+		"text": "Обновитесь до последней версии приложения.",
+		"version": 2040599,
+		"date":"",
+		"action": "market://details?id=com.posttracker.app",
+		"locale": "all"
 	}
 
 ]
