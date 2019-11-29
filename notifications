@@ -47,6 +47,14 @@
 		"date":"",
 		"action": "market://details?id=com.posttracker.app",
 		"locale": "all"
+	},{
+		"id": 9,
+		"title": "Обновитесь до последней беты",
+		"text": "В текущей версии 3.2.1-RC6 есть критическая ошибка при обновлении статусов в фоне, обновитесь до последней версии (3.2.1-RC10)",
+		"version": 3020106,
+		"date":"",
+		"action": "market://details?id=com.posttracker.app.pro",
+		"locale": "all"
 	}
 
 ]
