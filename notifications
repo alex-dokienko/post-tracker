@@ -1,11 +1,11 @@
 {
 	"notifications": [{
-		"id": 1,
-		"title": "Новая версия 1.8.5",
-		"text": "",
-		"version": 20000000,
+		"id": 8,
+		"title": "Новая версия 2.4.8",
+		"text": "Обновитесь до последней версии приложения чтобы продолжить пользоваться всеми функциями приложения.",
+		"version": 2040799,
 		"date":"",
-		"action": "market://details?id=com.tvserials.notification",
+		"action": "market://details?id=com.posttracker.app",
 		"locale": "all"
 	},{
 		"id": 4,
