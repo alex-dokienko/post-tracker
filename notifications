@@ -63,7 +63,32 @@
 		"date":"",
 		"action": "market://details?id=com.posttracker.app.pro",
 		"locale": "all"
+	},{
+		"id": 11,
+		"title": "Версия PRO+",
+		"text": "На данный момент занимаюсь разработкой расширенной версии PRO с функциями массовой отправки СМС, если интересно пишите на почту",
+		"version": 3040399,
+		"date":"",
+		"action": "market://details?id=com.posttracker.app.pro",
+		"locale": "all"
+	},{
+		"id": 12,
+		"title": "Версия PRO+",
+		"text": "На данный момент занимаюсь разработкой расширенной версии PRO с функциями массовой отправки СМС, если интересно пишите на почту",
+		"version": 3040299,
+		"date":"",
+		"action": "market://details?id=com.posttracker.app.pro",
+		"locale": "all"
+	},{
+		"id": 13,
+		"title": "Версия PRO+",
+		"text": "На данный момент занимаюсь разработкой расширенной версии PRO с функциями массовой отправки СМС, если интересно пишите на почту",
+		"version": 3040199,
+		"date":"",
+		"action": "market://details?id=com.posttracker.app.pro",
+		"locale": "all"
 	}
+
 
 ]
 } 
